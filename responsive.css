@@ -1,0 +1,217 @@
+@media only screen and (max-width:768px){
+
+    body{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    h1,h2,h3,h4{
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+    }
+    .fall{
+     
+        flex-direction:column;
+        width:calc(100% - 50px);
+        background: none;
+    }
+    .one{
+        width:100%;
+        height: 50%;
+        padding: 8px;
+       margin-top: 150px;
+        font-size: 13px;
+    }
+    .once{
+        margin-top:195px;
+    }
+    .one h2{
+font-size: 18px;
+margin-top: 18%;
+    }
+    .one p{
+        line-height:20px;
+        margin-top: 10px;
+    }
+    .two{
+        width:300px;
+      
+     height: 400px;
+        left: 10%;
+        bottom: 70%;
+        
+    }
+     .img{
+        width: 180px;
+        height: 180px;
+        top: 13%;
+        right: 29%;
+    }
+    .btn{
+        padding: 8px 10px;
+        right: -42px;
+    }
+    nav h1{
+        font-size: 25px;
+        margin-right: 50px;
+    }
+
+    .sidebar{
+        width: 50px;
+        height: 50%;
+        border-radius: 12px 0px 0px 12px;
+        justify-content: center;
+        background: var(--secondary-color);
+        
+        top: 30%;
+    }
+    .sidebar i{
+        color: var(--body-color);
+    }
+    .tri{
+        position: relative;
+        height: 1000px;
+        width: calc(100% - 50px);
+    }
+    .tri .web{
+        display: flex ;
+        flex-direction: column;
+        height: 800px;
+        bottom:10%;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .tri .ser{
+        top: 0;
+    }
+    .tri .ser h1 {
+        margin-top: 2%;
+    }
+    .tri .web .serve1{
+        
+        margin-left: 4px;
+        width: 70%;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+    .tri .tech{
+        top: -30%;
+        width:calc(100% - 50px) ;
+        height: 5%;
+        position: relative;
+       
+        left: 7%;
+    }
+    .tri .tech img{
+        width:25px ;
+        height: 25px;
+    }
+
+    .hire{
+        width: calc(100% - 50px);
+        display: flex;
+        flex-direction:column;
+        height: 800px;
+        
+    }
+    .hire .whm{
+        display: flex;
+        flex-direction: column;
+        margin-left: 4px;
+    }
+    .hire .whm .whmi .circle1 {
+        height: 150px;
+        width: 150px;
+    }
+    .hire .whm .whmi .circle2{
+        height:150px;
+        width: 150px;
+        left: 5%;
+    }
+    .hire .whm .whmi .circle3 {
+        height: 150px;
+        width: 150px;
+        top: 30%;
+        right: 10%;
+    }
+    .hire .whm .quality{
+        width:100%;
+   
+    }
+    .hire .whm .quality p{
+        font-size: 13px;
+        padding:9px;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+    .hire .whm .whmi{
+        width: 100%;
+        height: 100%;
+    }
+    .abts
+{
+flex-direction:row;
+align-items: center;
+justify-content: center;
+}    
+.abts .skills{
+  padding-top: 20px;
+  padding-bottom: 20px;
+backdrop-filter: none   ;
+-webkit-backdrop-filter: none;
+
+}
+.abts .skills img{
+    width: 24px;
+    height: 24px;
+}
+.abts .skills .circular-progress{
+    width: 60px;
+    height: 60px;
+}
+.abts .skills .circular-progress::before{
+    width: 50px;
+    height: 50px;
+}
+.progress-value{
+    font-size: 10px;
+}
+.txt{
+    font-size: 16px;
+}
+.edu{
+    margin-top: 59px;
+}
+.modalcontent{
+    width: 90%;
+}
+#messageForm button{
+    width: 100%;
+}
+
+.pro{
+    height: 400px;
+    width: calc(100% - 50px);
+    left: 0;
+}
+.pro h1{
+    font-size: 16px;
+    text-align: center;
+    left: 0;
+}
+.pro p{
+    font-size: 10px;
+}
+.slide{
+    width: 100%;
+}
+
+    footer{
+        
+        font-size: 13px;
+    }
+}
