@@ -41,6 +41,21 @@ const progressBars = [
       progressEndValue: 30,
       speed: 63,
     },
+
+     {
+      circularProgress: document.querySelector(".circular-progress-7"),
+      progressValue: document.querySelector(".progress-value-7"),
+      progressStartValue: 0,
+      progressEndValue: 60,
+      speed: 63,
+    },
+     {
+      circularProgress: document.querySelector(".circular-progress-8"),
+      progressValue: document.querySelector(".progress-value-8"),
+      progressStartValue: 0,
+      progressEndValue: 50,
+      speed: 63,
+    },
     // Add more progress bar settings as needed
   ];
   
